@@ -29,12 +29,11 @@ flex-direction: column;
 }
 
 .cabecalho__conteudo01{
-    background-color: blueviolet;
 display:flex;
 justify-content:flex-start;
 align-items: center;
 background-image: url(imagens/Background.png);
-color: white;
+color:var(--branco-principal);
 background-size: cover;
 background-repeat: no-repeat;
 width:100% ;
@@ -163,6 +162,7 @@ background-color: var(--cor-de-fundo);
 align-items: center;
 justify-content: center;
 gap: 80px;
+margin-top: 50px;
 }
 
 .parte02__conteudo{
@@ -201,4 +201,137 @@ gap: 80px;
     
 
 }
+
+/*---------------------------------------------------------------------------*/
+
+.parte03{
+display: flex;
+flex-direction: row-reverse;
+align-items: center;
+justify-content: center;
+gap: 80px;
+margin-top: 150px;
+}
+
+.parte03__conteudo{
+    width: 588px;
+    height: 144px;
+}
+
+
+.parte03__conteudo__titulo{
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-size: 48px;
+    
+    color: var(--branco-principal);
+
+
+}
+
+.parte03__conteudo__texto{
+
+
+    font-weight: 400;
+    font-size: 16px;
+    height: 48px;
+    line-height: 24px;
+    color: var(--cinza-secundario);
+    
+
+}
+/*------------------------------------------------------------*/
+
+.parte04{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+margin-top: 150px;
+}
+
+.parte04__titulo{
+
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-size: 48px;
+    
+    color: var(--branco-principal);
+
+
+
+}
+
+.parte04__conteudo{
+display: flex;
+
+color: var(--branco-principal);
+
+
+}
+
+.parte04__conteudo__imagem{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+font-family: var(--fonte-principal);
+
+font-weight: 700;
+
+}
+/*----------------------------------------------------------*/
+
+.rodape{
+display: flex;
+    margin-top: 150px;
+flex-direction: column;
+gap: 50px;
+justify-content: center;
+align-items: center;
+}
+
+
+.rodape__informacoes{
+color: var(--cinza-secundario);
+font-family: var(--fonte-principal);
+display: flex;
+gap: 20px;
+justify-content: center;
+font-weight: 700;
+}
+
+
+.rodape__texto{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 20px;
+padding-bottom:50px ;
+
+}
+
+.rodape__texto01{
+color: var(--cinza-secundario);
+font-family: var(--fonte-principal);
+font-weight: 100;
+
+
+
+}
+
+.rodape__texto02{
+width: 1300px;
+    color: var(--cinza-secundario);
+    font-family: var(--fonte-principal);
+    font-weight: 100;
+    text-align: justify;
+
+
+}
+
+
+
 
