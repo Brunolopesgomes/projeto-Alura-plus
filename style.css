@@ -335,14 +335,105 @@ width: 61rem;
 @media (max-width:1150px) {
 
 
-.cabecalho{
-    background: url(imagens/Background.png);
-    background-size: contain;
+.cabecalho{ 
+display: flex;
+justify-content: center;
+
+background: url(imagens/background02.png);
+background-size: contain;
 background-repeat: no-repeat;
-background-position: center;
+width:auto;
+
 
 }
 .cabecalho__conteudo02{
+width: 50%;
+margin-left: 155px;
+margin-top: 280px;
+justify-content: center;
+align-items: center;
+padding: 3%;
+
+}
+
+.cabecalho__conteudo02__titulo{
+width:510px;
+text-indent: 25px;
+
+}
+
+.cabecalho__conteudo02__texto{
+width: 510px;
+
+
+}
+
+
+.parte01{
+display: flex;
+flex-direction: column;
+width: auto;
+
+}
+
+.parte01__imagem{
+width: 90%;
+margin-left: 100px;
+}
+
+.parte01__conteudo{
+    width: 90%;
+
+    margin-left: 100px;
+
+}
+
+
+.parte02{
+margin-top: 150px;
+    display: flex;
+    flex-direction:  column-reverse;
+
+
+}
+
+
+.parte02__imagem{
+
+width: 90%;
+
+margin-left: 100px;
+}
+
+.parte02__conteudo{
+
+width: 90%;
+margin-left: 100px;
+
+
+}
+
+.parte02__conteudo__botao{
+margin-top:90px ;
+margin-left: 120px;
+
+}
+
+
+.parte03{
+
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+.parte04{
+
+
+    display: flex;
+    flex-direction: column;
+
 
 }
 
