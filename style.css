@@ -347,12 +347,11 @@ width:auto;
 
 }
 .cabecalho__conteudo02{
-width: 50%;
-margin-left: 155px;
+width: 300px;
 margin-top: 280px;
 justify-content: center;
 align-items: center;
-padding: 3%;
+
 
 }
 
@@ -378,13 +377,11 @@ width: auto;
 
 .parte01__imagem{
 width: 90%;
-margin-left: 100px;
 }
 
 .parte01__conteudo{
     width: 90%;
 
-    margin-left: 100px;
 
 }
 
@@ -402,14 +399,11 @@ margin-top: 150px;
 
 width: 90%;
 
-margin-left: 100px;
 }
 
 .parte02__conteudo{
 
 width: 90%;
-margin-left: 100px;
-
 
 }
 
