@@ -343,7 +343,6 @@ background: url(imagens/background02.png);
 background-size: contain;
 background-repeat: no-repeat;
 width:auto;
-
 padding:8%;
 
 }
@@ -393,13 +392,12 @@ width: auto;
 display: flex;
 flex-direction: column;
 width: auto;
-
 padding:8%;
 
 }
 
 .parte01__imagem{
-width: 60%;
+width: 80%;
 }
 
 .parte01__conteudo{
@@ -421,7 +419,7 @@ margin-top: 150px;
 
 .parte02__imagem{
 
-width:60%;
+width:80%;
 
 }
 
@@ -437,7 +435,7 @@ width:auto;
 
 .parte02__conteudo__botao{
 margin-top:90px ;
-margin-left: 80px;
+margin-left: 130px;
 
 }
 
@@ -461,7 +459,7 @@ padding:8%;
 
 .parte03__imagem{
 
-width: 60%;
+width: 80%;
 
 }
 
@@ -469,9 +467,8 @@ width: 60%;
 
 .parte04{
 
-
+margin-top: 0px;
     padding:8%;
-
 }
 
 
@@ -484,6 +481,7 @@ width: 100%;
 
 .rodape{
 
+    margin-top: 0px;
 
     padding:8%;
 }
@@ -491,6 +489,10 @@ width: 100%;
 flex-direction: column;
 
 
+}
+.rodape__imagem{
+
+width: 30%;
 }
 
 
