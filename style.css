@@ -333,7 +333,7 @@ width: 61rem;
 /*-------------------------------------------------------------------------*/
 
 
-@media (max-width:1250px) {
+@media (max-width:1200px) {
 
 
     .cabecalho{ 
@@ -368,7 +368,7 @@ width: 61rem;
     
     .cabecalho__conteudo02__texto{
     width: 100%;
-    padding-left: 38%;
+    text-align: center;
     }
     
     .cabecalho__conteudo02__botao01{
