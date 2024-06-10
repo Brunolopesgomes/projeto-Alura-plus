@@ -528,11 +528,11 @@ padding: 5%;
 }
 .cabecalho__conteudo02{
 width:auto;
-margin-top: 280px;
+margin-top:17rem;
 justify-content: center;
 align-items: center;
 
-margin-left:5px;
+margin-left:0.3rem;
 
 
 }
@@ -543,7 +543,7 @@ width:70% ;
 }
 
 .cabecalho__conteudo02__titulo{
-width:410px;
+width:23rem;
 }
 
 .cabecalho__conteudo02__texto{
@@ -589,7 +589,7 @@ width: 80%;
 
 
 .parte02{
-margin-top: 150px;
+margin-top: 9rem;
     display: flex;
     flex-direction:  column-reverse;
 
@@ -615,7 +615,7 @@ width:auto;
 
 
 .parte02__conteudo__botao{
-margin-top:90px ;
+margin-top:5rem ;
 
 }
 
@@ -633,7 +633,6 @@ padding:8%;
 
 }
 .parte03__conteudo__titulo{
-
 
 }
 
@@ -657,7 +656,9 @@ flex-direction: column;
 width: 100%;
 
 }
+.parte04__titulo{
 
+}
 
 .rodape{
 
