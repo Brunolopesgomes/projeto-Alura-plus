@@ -519,7 +519,7 @@ width: 61rem;
 .cabecalho{ 
 display: flex;
 justify-content: center;
-
+align-items: center;
 background: url(imagens/background02.png);
 background-size: contain;
 background-repeat: no-repeat;
