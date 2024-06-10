@@ -532,6 +532,7 @@ margin-top: 280px;
 justify-content: center;
 align-items: center;
 
+margin-left:5px;
 
 
 }
@@ -542,7 +543,7 @@ width:70% ;
 }
 
 .cabecalho__conteudo02__titulo{
-width:auto;
+width:410px;
 }
 
 .cabecalho__conteudo02__texto{
