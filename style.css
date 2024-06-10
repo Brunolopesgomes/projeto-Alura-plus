@@ -23,8 +23,8 @@ background-color: var(--cor-de-fundo);
 }
 
 .cabecalho{
-    display:flex;
-flex-direction: column;
+    display:grid;
+    grid-template-columns:50% 25% 25% ;
 width:auto;
 background-image: url(imagens/Background.png);
 background-size:contain;
@@ -46,7 +46,6 @@ justify-content: center;
 flex-direction: column;
 align-items: center;
 margin-left:30px ;
-margin-top:50px ;
 padding: 2%;
 gap: 16px;
 }
@@ -340,14 +339,14 @@ width: 61rem;
     display: flex;
     justify-content: center;
     background: url(imagens/background02.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     width:auto;
     
     }
     .cabecalho__conteudo02{
     width: 100%;
-    margin-top: 1080px;
+    margin-top: 1200px;
     justify-content: center;
     align-items: center;
     
@@ -390,7 +389,7 @@ width: 61rem;
     flex-direction: column;
     width: auto;
     padding:8%;
-    margin-top: 350px;
+    margin-top: 450px;
     }
     
     .parte01__imagem{
@@ -405,7 +404,6 @@ width: 61rem;
     
     
     .parte02{
-    margin-top: 150px;
         display: flex;
         flex-direction:  column-reverse;
     
@@ -438,9 +436,9 @@ width: 61rem;
     
     .parte03{
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         
-    padding:8%;
+    padding:2%;
     }
     
     .parte03__conteudo{
@@ -449,13 +447,17 @@ width: 61rem;
     
     }
     .parte03__conteudo__titulo{
+    text-align: center;
     
+    }
+    .parte03__conteudo__texto{
+    text-align: center;
     
     }
     
     .parte03__imagem{
     
-    width: 90%;
+    width: 60%;
     
     }
     
@@ -522,11 +524,10 @@ background: url(imagens/background02.png);
 background-size: contain;
 background-repeat: no-repeat;
 width:auto;
-padding:8%;
-
+padding: 2%;
 }
 .cabecalho__conteudo02{
-width: 300px;
+width:auto;
 margin-top: 280px;
 justify-content: center;
 align-items: center;
@@ -536,12 +537,12 @@ align-items: center;
 }
 
 .cabecalho__imagem02{
-width:80% ;
+width:70% ;
 
 }
 
 .cabecalho__conteudo02__titulo{
-width:420px;
+width:auto;
 }
 
 .cabecalho__conteudo02__texto{
@@ -572,7 +573,7 @@ display: flex;
 flex-direction: column;
 width: auto;
 padding:8%;
-
+margin-top: 0px;
 }
 
 .parte01__imagem{
