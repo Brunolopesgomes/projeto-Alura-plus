@@ -291,13 +291,14 @@ align-items: center;
 }
 
 
-.rodape__informacoes{
+.rodape__lista{
 color: var(--cinza-secundario);
 font-family: var(--fonte-principal);
 display: flex;
 gap: 20px;
 justify-content: center;
 font-weight: 700;
+list-style-type:none;
 }
 
 
@@ -488,7 +489,7 @@ width: 61rem;
     
         padding:8%;
     }
-    .rodape__informacoes{
+    .rodape__lista{
     flex-direction: column;
     text-align: center;
     
@@ -662,18 +663,21 @@ width: 100%;
 }
 
 .rodape{
-
-    margin-top: 0px;
-
     padding:8%;
 }
-.rodape__informacoes{
-flex-direction: column;
+.rodape__lista{
+display: flex;
+
 
 
 }
-.rodape__imagem{
 
+.rodape__lista__item{
+
+}
+
+
+.rodape__imagem{
 width: 30%;
 }
 
