@@ -621,6 +621,7 @@ margin-top:5rem ;
 
 
 .parte03{
+    margin-top:50px ;
     display: flex;
     flex-direction: column;
     
@@ -646,7 +647,7 @@ width: 80%;
 
 .parte04{
 
-margin-top: 0px;
+margin-top: 80px;
     padding:8%;
 }
 
